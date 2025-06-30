@@ -12,8 +12,8 @@ with open('HISTORY.md') as history_file:
     history = history_file.read()
 
 install_requires = [
-    'opencv-python==4.1.0.25',
-    'torch==1.0.1.post2',
+    'opencv-python==4.8.1.78',
+    'torch==2.7.1',
     'torch-dct==0.1.5',
     'pandas>=0.25,<0.26',
     'numpy>=1.17.3,<2',
